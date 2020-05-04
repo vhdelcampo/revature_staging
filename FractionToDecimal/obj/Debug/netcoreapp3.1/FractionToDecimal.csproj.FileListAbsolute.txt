@@ -11,3 +11,16 @@
 /home/vdelcampo/staging/FractionToDecimal/obj/Debug/netcoreapp3.1/FractionToDecimal.dll
 /home/vdelcampo/staging/FractionToDecimal/obj/Debug/netcoreapp3.1/FractionToDecimal.pdb
 /home/vdelcampo/staging/FractionToDecimal/obj/Debug/netcoreapp3.1/FractionToDecimal.genruntimeconfig.cache
+/home/victor/staging/FractionToDecimal/obj/Debug/netcoreapp3.1/FractionToDecimal.csprojAssemblyReference.cache
+/home/victor/staging/FractionToDecimal/obj/Debug/netcoreapp3.1/FractionToDecimal.csproj.CoreCompileInputs.cache
+/home/victor/staging/FractionToDecimal/obj/Debug/netcoreapp3.1/FractionToDecimal.AssemblyInfoInputs.cache
+/home/victor/staging/FractionToDecimal/obj/Debug/netcoreapp3.1/FractionToDecimal.AssemblyInfo.cs
+/home/victor/staging/FractionToDecimal/obj/Debug/netcoreapp3.1/FractionToDecimal.dll
+/home/victor/staging/FractionToDecimal/obj/Debug/netcoreapp3.1/FractionToDecimal.pdb
+/home/victor/staging/FractionToDecimal/bin/Debug/netcoreapp3.1/FractionToDecimal
+/home/victor/staging/FractionToDecimal/bin/Debug/netcoreapp3.1/FractionToDecimal.deps.json
+/home/victor/staging/FractionToDecimal/bin/Debug/netcoreapp3.1/FractionToDecimal.runtimeconfig.json
+/home/victor/staging/FractionToDecimal/bin/Debug/netcoreapp3.1/FractionToDecimal.runtimeconfig.dev.json
+/home/victor/staging/FractionToDecimal/bin/Debug/netcoreapp3.1/FractionToDecimal.dll
+/home/victor/staging/FractionToDecimal/bin/Debug/netcoreapp3.1/FractionToDecimal.pdb
+/home/victor/staging/FractionToDecimal/obj/Debug/netcoreapp3.1/FractionToDecimal.genruntimeconfig.cache

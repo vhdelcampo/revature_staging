@@ -12,7 +12,7 @@ namespace FractionToDecimal
   {
     static void Main(string[] args)
     {
-      Console.WriteLine(ToDecimalString(9, 8));
+      Console.WriteLine(ToDecimalString(6, 11));
     }
     public static string ToDecimalString(int n, int d)
     {
@@ -24,12 +24,27 @@ namespace FractionToDecimal
       }
       else
       {
-
+        String s = sb.Append(dec).ToString();
+        int index = s.IndexOf('.');
+        sb.Clear();
+        char repeat = ' ';
+        for (int i=index+1; i<s.Length; i++)
+        {
+          if (s[i] == s[i-1])
+          {
+            repeat = s[i];
+            break;
+          }
+        }
+        sb.Append(s.Substring(0,1));
+        sb.Append(".");
+        sb.Append("(" + repeat + ")");
       }
       return sb.ToString();
     }
     public static Boolean HasRepeatingDecimals(int n)
     {
+      List<int> p = PrimeFactorization(n);
       foreach (var item in p)
       {
         if (item != 5 || item != 2) { return false; }
