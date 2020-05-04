@@ -9,9 +9,11 @@ namespace BalanceBrackets
       string s1 = "((()))()";
       string s2 = "()())))";
       string s3 = "(())()())";
+      string s4 = "((((";
       Console.WriteLine(FixBrackets(s1));
       Console.WriteLine(FixBrackets(s2));
       Console.WriteLine(FixBrackets(s3));
+      Console.WriteLine(FixBrackets(s4));
     }
 
     public static int FixBrackets(string s)
@@ -33,10 +35,11 @@ namespace BalanceBrackets
           {
             FixCount--;
             RightParenCount--;
+            LeftParenCount--;
           }
         }
       }
-      return FixCount;
+      return FixCount + LeftParenCount;
     }
   }
 }
