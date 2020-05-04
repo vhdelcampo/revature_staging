@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9ofwUEG9U6hrTeXGEoW9cv97v8j8dOIPuvT4Sqwf72XS8o3rhWgFljwEuuYJr8MBeTOfiANNB3b8LjQho24oiQ==",
+  "dgSpecHash": "odgeW96humWoykyUXNYris3iMc0rZXAjOTih7kqU3Z6FdvArpOoQma5e3m7Zob+xhBxNUL3hpBAq2q4VYWxxUQ==",
   "success": true,
-  "projectFilePath": "/home/victor/staging/FractionToDecimal/FractionToDecimal.csproj",
+  "projectFilePath": "/home/vdelcampo/staging/FractionToDecimal/FractionToDecimal.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

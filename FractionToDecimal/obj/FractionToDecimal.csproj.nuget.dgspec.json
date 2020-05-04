@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/victor/staging/FractionToDecimal/FractionToDecimal.csproj": {}
+    "/home/vdelcampo/staging/FractionToDecimal/FractionToDecimal.csproj": {}
   },
   "projects": {
-    "/home/victor/staging/FractionToDecimal/FractionToDecimal.csproj": {
+    "/home/vdelcampo/staging/FractionToDecimal/FractionToDecimal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/victor/staging/FractionToDecimal/FractionToDecimal.csproj",
+        "projectUniqueName": "/home/vdelcampo/staging/FractionToDecimal/FractionToDecimal.csproj",
         "projectName": "FractionToDecimal",
-        "projectPath": "/home/victor/staging/FractionToDecimal/FractionToDecimal.csproj",
-        "packagesPath": "/home/victor/.nuget/packages/",
-        "outputPath": "/home/victor/staging/FractionToDecimal/obj/",
+        "projectPath": "/home/vdelcampo/staging/FractionToDecimal/FractionToDecimal.csproj",
+        "packagesPath": "/home/vdelcampo/.nuget/packages/",
+        "outputPath": "/home/vdelcampo/staging/FractionToDecimal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/victor/.nuget/NuGet/NuGet.Config"
+          "/home/vdelcampo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

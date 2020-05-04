@@ -12,13 +12,13 @@ namespace FractionToDecimal
   {
     static void Main(string[] args)
     {
-      Console.WriteLine(ToDecimalString(6, 11));
+      Console.WriteLine(ToDecimalString(5, 3));
     }
     public static string ToDecimalString(int n, int d)
     {
       double dec = (double)n / d;
       StringBuilder sb = new StringBuilder();
-      if (!HasRepeatingDecimals(d))
+      if (!HasRepeatingDecimals(d) || n % d == 0)
       {
         sb.Append(dec);
       }
@@ -28,19 +28,29 @@ namespace FractionToDecimal
         int index = s.IndexOf('.');
         sb.Clear();
         char repeat = ' ';
-        for (int i=index+1; i<s.Length; i++)
+        for (int i = index + 1; i < s.Length; i++)
         {
-          if (s[i] == s[i-1])
+          if (s[i] == s[i - 1])
           {
             repeat = s[i];
             break;
           }
         }
-        sb.Append(s.Substring(0,1));
+        sb.Append(s.Substring(0, index));
         sb.Append(".");
         sb.Append("(" + repeat + ")");
       }
       return sb.ToString();
+    }
+    public static int GCD(int n1, int n2)
+    {
+      while (n2 > 0)
+      {
+        int r = n1 % n2;
+        n1 = n2;
+        n2 = r;
+      }
+      return n1;
     }
     public static Boolean HasRepeatingDecimals(int n)
     {
