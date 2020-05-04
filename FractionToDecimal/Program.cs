@@ -30,11 +30,6 @@ namespace FractionToDecimal
     }
     public static Boolean HasRepeatingDecimals(int n)
     {
-      if (FactorizationContainsTwoOrFive(PrimeFactorization(n))) { return true; }
-      return false;
-    }
-    public static Boolean FactorizationContainsTwoOrFive(List<int> p)
-    {
       foreach (var item in p)
       {
         if (item != 5 || item != 2) { return false; }
